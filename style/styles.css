@@ -1,0 +1,122 @@
+/*Zerando a margem*/
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilização do corpo do Blog*/
+body {
+    background-color: whitesmoke;
+}
+
+/*Estilização do cabeçalho*/
+.header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu,
+.logo {
+    padding: 10px;
+}
+
+/*Estilização do menu de links*/
+.menu a, 
+.menu a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+
+}
+
+.menu 
+a:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    border-radius: 20px;
+    position: relative;
+    transition: 1.0s;
+}
+
+/*Estilização de outros links*/
+.para-links {
+    color: blue;
+    text-decoration: none;
+    padding: 0;
+    font-weight: bold;
+}
+
+/*Estilização do container*/
+.container {
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*Estilização dos posts*/
+.posts {
+    font-family: 'Courier New', Courier, monospace;
+    width: 660px;
+    color: black;
+    background-color: white;
+    float: left;
+}
+
+.post {
+    padding: 20px;
+    text-align: justify;
+    margin: 10px;
+}
+
+.data-post {
+    font-size: 0.7em;
+    margin-bottom: 15px;
+    display: block;
+}
+
+/*Estilização da barra lateral*/
+.barra-lateral {
+    width: 240px;
+    float: right;
+}
+
+.conteudo-lateral {
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.conteudo-lateral h3 {
+    background-color: black;
+    color: white;
+}
+
+.post-destaque {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid lightslategray;
+}
+
+/*Estilização do rodapé*/
+.footer {
+    clear: both;
+    background-color: black;
+    padding: 15px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9em;
+}
